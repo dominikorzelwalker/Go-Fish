@@ -1,4 +1,4 @@
-# Go-Fish Game
+# Go Fish Game
 
 This project allows you to play the game of Go Fish against a computer bot!
 
