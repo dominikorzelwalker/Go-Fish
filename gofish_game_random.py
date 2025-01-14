@@ -182,14 +182,12 @@ def gofish_game():
         if not cards_taken:
             pointer = (pointer + 1) % 2
 
-    # Output final scores
     print("\n========================")
     print(f"Game Over!")
     for player in players:
         print(f"{player.name} scored {player.score} sets.")
     print("========================")
 
-    # Determine the winner
     if player0.score > player1.score:
         print(f"{player0.name} wins!")
     else:
